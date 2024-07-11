@@ -1,0 +1,108 @@
+.top{
+    border-bottom: 5px solid red;
+}
+.left{
+    float: left;
+    width: 200px;
+}
+.maina{
+    width: 380px;
+    float: left;
+    font-size: 1em;
+}
+.mainb{
+    width: 380px;
+    float: right;
+    font-size: 1em;
+    
+}
+.bottom{
+    clear: both;
+    width: 90%;
+    padding-left: 20px;
+}
+
+.items{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap: 30px;
+}
+.item img{
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4 , h5{
+    padding: 5px;
+    text-align: center;
+}
+.item button{
+
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(45, 230, 91);
+    color: rgb(10, 11, 11);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.item button:hover{
+    transform: scale(1.08);
+}
+.form{
+    float: left;
+    width: 450px;
+    font-size: 1em;
+    color: brown;
+}
+.text{
+
+    float: right;
+    width: 300px;
+    padding-top: 50px;
+    color: brown;
+    margin-right: 20px;
+}
+.maya{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.maya tr:nth-child(even){
+
+    background-color: rgb(213, 194, 194);
+    color: rgba(255, 255, 255, 0.934);
+
+}
+.maya tr:nth-child(odd){
+    background-color: rgb(237, 211, 211);
+    color: black;
+} 
+.pic{
+    float: right;
+}  
+.old{
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.pita{
+    padding-left: 150px;
+}
+

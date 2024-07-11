@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<!--about form-->
+<body>
+    <div id="wrapper">
+        <header class="top">
+            <h1><img src="img/rest banner.jpg" width="950" height="350" alt="Restaurant banner"></h1>
+        </header>
+        <nav class="left">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+            <section class="form">
+                <form id="contact" method="post" action="submit.php">
+                   <br>
+                   <p>
+                      <label for="date">Today's Date</label>
+                      <input type="date" id="date" name="date">
+                   </p>
+                   <fieldset>
+                       <legend>Personal Information</legend>
+                       <p>
+                          <label for="fname">First Name:</label>
+                          <input type="text" id="fname" name="fname" required placeholder="Type Your first Name">*
+                       </p>
+                       <p>
+                        <label for="fname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" required placeholder="Type Your last Name">*
+                     </p>
+                        <p>
+                            <label for="Birthdate">Birthdate:</label>
+                            <input type="date" id="Birthdate" name="Birthdate"required placeholder="Type Birthdate Name">*
+                        </p>
+                        <p>
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city">
+                        </p>
+                        <p>
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="State">
+                        </p>
+                        <p>
+                            <label for="Street">Street Address:</label>
+                            <input type="text" id="Street" name="Street">
+                        </p>
+                        <p>
+                            <label for="phone">Phone Number:</label>
+                            <input type="number" id="phone" name="phone">
+                        </p>
+                        <p>
+                            <label for="Zip">Zip Code:</label>
+                            <input type="number" id="zip" name="zip">
+                        </p>                            
+                   </fieldset>
+                   <br>
+                   <fieldset>
+                    <legend>Join Newsletter</legend>
+                    <p>
+                       <label for="empnum">Customer ID Number:</label>
+                       <input type="number" id="empnum" name="empnum">
+                    </p>
+                     <p>
+                         <label for="pay">Payment Method:</label>
+                         Cash
+                         <input type="radio" name="pay" value="Cash">
+                         Online
+                         <input type="radio" name="pay" value="Online">
+                         Check
+                         <input type="radio" name="pay" value="Cheack">
+                     </p>
+                     <p>
+                         <label for="Com">Method of Contact:</label>
+                         Land Line
+                         <input type="checkbox" name="lline" value="Land Line">
+                         Cell Phone
+                         <input type="checkbox" name="cell" value="Cell Phone">
+                         Email
+                         <input type="checkbox" name="email" value="Email">
+                     </p>
+                     <p>
+                        <label for="Com">Your Favorite Food:</label>
+                        Japanese
+                        <input type="checkbox" name="Japanise" value="Japanise">
+                        Thai
+                        <input type="checkbox" name="Thai" value="Thai">
+                        Indian
+                        <input type="checkbox" name="Indain" value="Indain">
+                    </p>
+                     <p>
+                         <label for="how">How Often You Go Out To Eat Each Month:</label>
+                         <input type="Text" id="how" name="how">
+                     </p> 
+                     <p>
+                        <label for="fback"> Your Feedback:</label>
+                        <input type="text" id="fback" name="fback">
+                     </p> 
+                     <p>
+                        *Required
+                     </p>                          
+                </fieldset>
+                <p>
+                    <input type="submit" value="Submit Your Form">
+                </p>
+                </form>
+
+            </section>
+            <section class="text">
+                <img src="img/cooking.jpg" class="pic" alt="cooking picture" width="150" height="150">
+                <p>Types of cooking also depend on the skill levels and training of the cooks. Cooking is done both by people in their own dwellings and by professional cooks and chefs in restaurants and other food establishments.</p><br>
+                <img src="img/rest1.jpg" class="pic" alt="Restaurant picture" width="150" height="150">
+                <p>Address : N1256 Jacob Ct <br>
+                Kaukauna,WI 54130-8230 <br>
+                Phone :920-939-9004 <br>
+                Email address : <br> Shahifamily13@gmail. com</p><br>
+                <img src="img/old rest1.jpg" class="pic" alt="Restaurant picture" width="150" height="150" />
+            <p>Home Office <br>
+                Shahi's Dinner <br>
+                280 Hemsted Dr <br>
+                ridding, Wi 96002 <br>
+                920-243-Shahi 2327 <br>
+                info@shahidinner.com
+              
+            </p>
+            </section>
+            <footer class="bottom">
+                <p><small>&COPY; 2011 Sanjay Shahi, LLC</small></p>
+                <address>
+                    <small>Have a question or comment about this site? <a href="site.feedback.html">Contact Our Web Team </small>
+                </address>
+            </footer>
+    </div>
+</body>
+</html>
